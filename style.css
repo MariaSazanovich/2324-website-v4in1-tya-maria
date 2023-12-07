@@ -49,3 +49,21 @@ footer {
 
 }
 
+#blok1 {
+    width: 100px;
+    height: 100px;
+    float:left;
+    background-color: #a9b2a1;
+}
+#blok2 {
+    width: 100px;
+    height: 100px;
+    float:left;
+    background-color: #a9b2a1;
+}
+#blok3 {
+    width: 100px;
+    height: 100px;
+    float:left;
+    background-color: #a9b2a1;
+}
