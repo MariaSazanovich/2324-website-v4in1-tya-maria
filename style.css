@@ -2,6 +2,9 @@
   margin: 0;
 }
 
+#wrapper{ 
+  width: 1000px;
+    margin:auto }
 
 #wrapper {
   background-color: #fcfdff;
