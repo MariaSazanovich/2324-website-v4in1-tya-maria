@@ -2,9 +2,6 @@
   margin: 0;
 }
 
-#wrapper{ 
-  width: 1000px;
-    margin:auto }
 
 #wrapper {
   background-color: #fcfdff;
@@ -101,7 +98,7 @@ footer>p {
   font-family:;
 }
 
-#romand_lipgloss {
-  width: 187px;
-  height: 187px; 
+#skin {
+  width: 333px;
+  height: 390px;
 }
