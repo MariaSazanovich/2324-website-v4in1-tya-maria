@@ -18,6 +18,7 @@ header {
 header {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   size: 50pt;
+  color: #f3e1db;
   font-style:italic;
 }
 
@@ -32,6 +33,7 @@ nav>a {
 color: #ffeae3;
 font-size: 20px;
 font-family: serif;
+font-weight: bold;
 display: inline-block;
 width:200px;
 height: 50px;
@@ -59,24 +61,86 @@ footer {
 }
 
 
-#clo{
-    width: 33%;
-    height: 575px;
-    float:left;
-    background-color: #a9b2a1;
+.container{ 
+  position: relative;
+  text-align: center;
+  line-height: -10px;
 }
+
+
+.left {
+  font-size: 25pt;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+}
+
+.left:hover {
+  font-size: 230%;
+  color:  white;
+}
+
+.centered {
+  font-size: 25pt;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered:hover {
+  font-size: 230%;
+  color:   white;
+}
+
+.right {
+  font-size: 25pt;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.right:hover {
+  font-size: 230%;
+  color:  white;
+}
+
+#clo{
+  width: 33%;
+  height: 575px;
+  float:left;
+  background-color: #a9b2a1;
+}
+
 #skin {
-    width: 33.3%;
-    height: 575px;
-    float:left;
-    background-color: #a9b2a1;
+  width: 33.3%;
+  height: 575px;
+  float:left;
+  background-color: #a9b2a1;
 }
 
 #jewellery {
-    width: 33.3%;
-    height: 575px;
-    float: none;
-    background-color: #a9b2a1;
+  width: 33.3%;
+  height: 575px;
+  float: none;
+  background-color: #a9b2a1;
+}
+
+
+h2 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30pt;
 }
 
 footer>p {
@@ -89,7 +153,6 @@ footer>p {
   width: 25%;
   float: left;
 }
-
 
 #anua_toner {
   width: 25%;
