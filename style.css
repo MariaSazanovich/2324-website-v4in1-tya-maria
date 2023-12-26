@@ -1,97 +1,170 @@
-#wrapper
-{width: 1000px;
-    margin:auto }
-
-body {
-  background-color: #ffeae3;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#wrapper {
-  background-color: #fcfdff;
-  margin: auto;
-  width: 1000px;
+
+
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #d8c9ba;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 header {
-  background-color: #9fa2b2;
-  width: 1000px;
-  height: 50px;
-  background-color: #d8c9ba;
-  margin-bottom: 10px;
-}
-#arwah title {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  size: 22px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  size: 50pt;
+  color: #f3e1db;
   font-style:italic;
 }
 
 nav {
-  width: 1000px;
-  height: 50px;
-  margin: auto;
   background-color: #d8c9ba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+nav>a { 
+color: #ffeae3;
+font-size: 20px;
+font-family: serif;
+font-weight: bold;
+display: inline-block;
+width:200px;
+height: 50px;
+text-decoration: none;
+text-align: center;
+line-height: 50px;
 
-article:hover {
-  background-color: #ffeae3;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 10px;
 }
 
-#sidebar {
-  background-color: #a9b2a1;
-  width: 120px;
-  height: 200px;
-  margin-bottom: 10px;
-  float: right;
+nav>a:hover { 
+  font-size: 134%;
+  color:#5a453d;
 }
 
 footer {
   clear: both;
-  background-color: #505810;
+  background-color: #d8c9ba;
   width: 100%;
-  height: 40px;
+  height: 60px;
+  margin-bottom: 0px;
 
 }
 
-div{
+
+.container{ 
+  position: relative;
+  text-align: center;
+  line-height: -10px;
+}
+
+
+.left {
+  font-size: 25pt;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+}
+
+.left:hover {
+  font-size: 230%;
+  color:  white;
+}
+
+.centered {
+  font-size: 25pt;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered:hover {
+  font-size: 230%;
+  color:   white;
+}
+
+.right {
+  font-size: 25pt;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.right:hover {
+  font-size: 230%;
+  color:  white;
+}
+
+#clo{
+  width: 33%;
+  height: 575px;
   float:left;
-}
-div{
-  float:left;
-}
-
-#Clothes {
-    width: 33.3%;
-    height: 0px;
-    height: 0px;
-    float:left;
-    background-color: #a9b2a1;
-}
-#Skincare {
-    width: 33.3%;
-    height: 410px;
-    height: 410px;
-    float:left;
-    background-color: #a9b2a1;
-}
-#Jewellery {
-    width: 33.3%;
-    height: 410px;
-    height: 410px;
-    float:left ;
-    background-color: #a9b2a1;
-}
-
-#clo {
-  width: 330px;
-  height: 410px;
-  width: 330px;
-  height: 410px;
+  background-color: #a9b2a1;
 }
 
 #skin {
-  width: 330px;
-  height: 410px;
-  width: 330px;
-  height: 410px;
+  width: 33.3%;
+  height: 575px;
+  float:left;
+  background-color: #a9b2a1;
+}
+
+#jewellery {
+  width: 33.3%;
+  height: 575px;
+  float: none;
+  background-color: #a9b2a1;
+}
+
+
+h2 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30pt;
+}
+
+footer>p {
+  color: white; 
+  text-align: center;
+  line-height: 60px;
+}
+
+#romand_lipgloss{
+  width: 25%;
+  float: left;
+}
+
+#anua_toner {
+  width: 25%;
+  float: left;
+}
+
+#hoodie {
+  width: 25%;
+  float: left; 
+}
+
+#bracelet {
+  width: 25%;
+  float: none; 
 }
