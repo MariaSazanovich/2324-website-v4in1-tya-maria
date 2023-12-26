@@ -71,7 +71,7 @@ footer {
 .left {
   font-size: 25pt;
   font-weight: bold;
-  color: black;
+  color: #f9eeee;
   position: absolute;
   top: 20%;
   left: 16%;
@@ -80,13 +80,13 @@ footer {
 
 .left:hover {
   font-size: 230%;
-  color:  white;
+  color:  black;
 }
 
 .centered {
   font-size: 25pt;
   font-weight: bold;
-  color: black;
+  color: #f9eeee;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -95,13 +95,13 @@ footer {
 
 .centered:hover {
   font-size: 230%;
-  color:   white;
+  color:   black;
 }
 
 .right {
   font-size: 25pt;
   font-weight: bold;
-  color: black;
+  color: #f9eeee;
   position: absolute;
   top: 20%;
   left: 85%;
@@ -110,7 +110,7 @@ footer {
 
 .right:hover {
   font-size: 230%;
-  color:  white;
+  color:  black;
 }
 
 #clo{
