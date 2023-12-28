@@ -158,6 +158,8 @@ nav>input {
   float: left;
 }
 
+/* products featured items */
+
 #producthome>img {
   float: left;
   margin: 30px;
@@ -165,20 +167,6 @@ nav>input {
   width: 250px;
   height: 250px;
 }
-
-#product>p {
-  
-}
-
-footer {
-  clear: both;
-  background-color: #d8c9ba;
-  width: 100%;
-  height: 60px;
-  margin-bottom: 0px;
-
-}
-
 
 .container{ 
   position: relative;
@@ -262,11 +250,6 @@ h2 {
   font-size: 30pt;
 }
 
-footer>p {
-  color: white; 
-  text-align: center;
-  line-height: 60px;
-}
 
 #romand_lipgloss{
   width: 25%;
@@ -314,10 +297,6 @@ text-align: center;
   font-size: 134%;
   color: #ffeae3;
 }
-.clothes-box{
-  display: inline-block;
-  width: 20%;
-}
 
 #levis {
   width: 50px;
@@ -327,4 +306,18 @@ text-align: center;
 #logo {
   width: 20px;
   height: 30px;
+}
+
+footer {
+  clear: both;
+  background-color: #d8c9ba;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0px;
+}
+
+footer>p {
+  color: white; 
+  text-align: center;
+  line-height: 60px;
 }
