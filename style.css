@@ -21,8 +21,11 @@ header>h1  {
   display: inline-block;
   line-height: 50px;
   color: #5a453d;
-
 }
+
+
+/*  title */
+
 
 nav {
   width: 100%;
@@ -84,6 +87,10 @@ nav>input {
   padding-top: 3px;
 }
 
+
+/*  navigation + slidebar */
+
+
 .container {
   display: flex;
   height: 100vh;
@@ -123,6 +130,8 @@ nav>input {
   font-size: 28px;
 }
 
+/*  3 pictures to own page */
+
 #text1 {
   color:#d8c9ba;
   background-color:#5a453d;
@@ -133,6 +142,8 @@ nav>input {
   padding-top: 10px;
   height: 50px;
 }
+
+/* featured items */
 
 #text2 {
   color:#d8c9ba;
@@ -155,6 +166,9 @@ nav>input {
   height: 250px;
 }
 
+#product>p {
+  
+}
 
 footer {
   clear: both;
@@ -282,7 +296,7 @@ footer>p {
 }
 
 #product>a { 
-color: #ffeae3;
+color: #5a453d;
 font-size: 20px;
 font-family: serif;
 font-weight: bold;
@@ -293,14 +307,12 @@ text-decoration: none;
 text-align: center;
 line-height: 50px;
 
-padding-top: 5px;
-padding-bottom: 5px;
-padding-right: 10px;
+text-align: center;
 }
 
 #product>a:hover { 
   font-size: 134%;
-  color:#5a453d;
+  color: #ffeae3;
 }
 .clothes-box{
   display: inline-block;
