@@ -52,11 +52,6 @@ padding-bottom: 5px;
 padding-right: 10px;
 }
 
-nav>a:hover { 
-  font-size: 134%;
-  color:#5a453d;
-}
-
 nav>input {
   background-color: #d8c9ba;
   font-size: 18px;
