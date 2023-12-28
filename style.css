@@ -72,7 +72,7 @@ footer {
   font-size: 25pt;
   font-weight: bold;
   color: #f9eeee;
-  position: absolute;
+  position:absolute;
   top: 20%;
   left: 16%;
   transform: translate(-50%, -50%);
