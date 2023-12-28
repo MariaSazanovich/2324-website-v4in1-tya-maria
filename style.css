@@ -57,6 +57,21 @@ nav>a:hover {
   color:#5a453d;
 }
 
+nav>input {
+  background-color: #d8c9ba;
+  font-size: 18px;
+  color: #f9eeee;
+  border-style: hidden;
+  margin-bottom: -0.7%;
+  margin-left:50px;
+  margin-right:-140px;
+}
+
+nav>input:hover {
+  font-size: 134%;
+  color:#5a453d ;
+}
+
 .slidebar {
   height: 25px;
   background-color: white;
