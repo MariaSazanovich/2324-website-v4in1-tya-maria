@@ -93,3 +93,10 @@
     text-align: center;
     line-height: 60px;
   }
+  .logo{
+    width: 300px;
+    height: 300px;
+  }
+  .faq-holder{
+    display:flex;
+  }
