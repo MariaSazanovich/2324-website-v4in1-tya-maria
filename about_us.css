@@ -14,9 +14,13 @@
   
   header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    size: 50pt;
+    size: 22px;
+    padding-left: 10px;
     color: #f3e1db;
     font-style:italic;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
   }
   
   nav {
@@ -41,6 +45,16 @@
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 10px;
+  }
+
+  nav>input {
+    background-color: #d8c9ba;
+    font-size: 18px;
+    color: #f9eeee;
+    border-style: hidden;
+    margin-bottom: -0.7%;
+    margin-left:50px;
+    margin-right:-140px;
   }
   
   nav>a:hover { 
@@ -103,7 +117,7 @@
 
   #aboutus {
 text-align: center;
-color: #d8c9ba;
+color: #5a453d;
 font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
@@ -111,11 +125,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    color: #5a453d;
   }
 
   #FAQ {
     text-align: center;
-    color: #d8c9ba;
+    color: #5a453d;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
