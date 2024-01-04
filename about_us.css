@@ -100,3 +100,29 @@
   .faq-holder{
     display:flex;
   }
+
+  #aboutus {
+text-align: center;
+color: #d8c9ba;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #aboutustext {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+
+  #FAQ {
+    text-align: center;
+    color: #d8c9ba;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #contactus {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: wavy;
+    font-size: large;
+    text-align: center;
+  
+  }
