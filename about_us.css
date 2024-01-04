@@ -82,16 +82,31 @@
   }
   
   .active, .accordion:hover {
-    background-color: #d8c9ba;
+    background-color: #6d594f;
+    color: #f9eeee;
     border-width: 2px;
-    color: #5a453d;
   }
   
   .panel {
-    padding: 0 18px;
+    padding: 18px;
     display: none;
-    background-color: #d8c9ba;
+    font-size: 18px;
+    background-color: white;
     overflow: hidden;
+  }
+
+  .panel>text {
+    padding: 10px;
+  }
+
+  .panel>p>a {
+    color:#BA3B46;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .panel>p>a:hover {
+    color:red;
   }
 
   footer {
@@ -107,37 +122,66 @@
     text-align: center;
     line-height: 60px;
   }
+
   .logo{
     width: 300px;
     height: 300px;
   }
   .faq-holder{
     display:flex;
+    padding-bottom: 60px;  
   }
 
-  #aboutus {
-text-align: center;
-color: #5a453d;
-font-family: Georgia, 'Times New Roman', Times, serif;
+#wrapper {
+  background-color: #d8c9ba;
+}
+
+#aboutus {
+  background-color: white;
+}
+
+#aboutus>h1 {
+  text-align: center;
+  color: #5a453d;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  #aboutustext {
-    text-align: center;
+  #aboutus>p {
+    text-align: left;
+    padding: 50px;
+    padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 20px;
     color: #5a453d;
   }
 
   #FAQ {
     text-align: center;
     color: #5a453d;
+    padding-bottom: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   #contactus {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: wavy;
-    font-size: large;
     text-align: center;
-  
+    padding: 20px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  #contactus>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #BA3B46;
+  }
+
+  #contactus>a:hover {
+    color: red;
+  }
+
+  .panel>ol {
+    padding-left: 50px ;
   }

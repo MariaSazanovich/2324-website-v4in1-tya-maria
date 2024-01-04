@@ -251,26 +251,6 @@ h2 {
 }
 
 
-#romand_lipgloss{
-  width: 25%;
-  float: left;
-}
-
-#anua_toner {
-  width: 25%;
-  float: left;
-}
-
-#hoodie {
-  width: 25%;
-  float: left; 
-}
-
-#bracelet {
-  width: 25%;
-  float: none; 
-}
-
 #product {
   background-color: #d8c9ba;
   display: flex;
