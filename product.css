@@ -92,3 +92,60 @@ nav {
 
       }
       
+      body {
+        margin: 0;
+        font-family: Arial;
+      }
+      
+      
+      .column {
+        float: none;
+        width: 100px;
+        padding: 10px;
+      }
+
+      .column img {
+        opacity: 0.8;  
+      }
+      
+      .column img:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .container {
+        position: relative;
+        display: none;
+        width: 500px;
+        height: 500px;
+      }
+
+      #imgtext {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+      }
+      
+      .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+      }
+
+      #expandedImg {
+        height: 500px;
+        padding: 10px;
+        padding-left: 0px !important;
+      }
+      

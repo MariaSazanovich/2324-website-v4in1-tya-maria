@@ -11,6 +11,7 @@
 </header>
 
 <nav>
+  <a href="index.html"> Home </a>
   <a href="Security.html"> Security</a>
   <a href="about_us.html">About us</a>
   <a href="account.html"> Account</a>
@@ -19,12 +20,42 @@
 </nav>
 
 <main>
-  <div id="product">
-    <img src="https://images.asos-media.com/products/pullbear-oversized-hoodie-met-tekstprint-in-kiezelkleur/204040249-1-stone?$n_640w$&wid=513&fit=constrain">
-  </div>
-  
-  <h1>Product name</h1>
-  
+  <div style="display:flex;flex-direction: row;">
+    <div class="row">
+      <div class="column">
+        <img id="firstImage" src="https://images.asos-media.com/products/pullbear-oversized-hoodie-met-tekstprint-in-kiezelkleur/204040249-1-stone?$n_640w$&wid=513&fit=constrain" alt="product1" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://images.asos-media.com/products/pullbear-oversized-hoodie-met-tekstprint-in-kiezelkleur/204040249-4?$n_960w$&wid=952&fit=constrain" alt="Snow" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://images.asos-media.com/products/pullbear-oversized-hoodie-met-tekstprint-in-kiezelkleur/204040249-2?$n_960w$&wid=952&fit=constrain" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://images.asos-media.com/products/pullbear-oversized-hoodie-met-tekstprint-in-kiezelkleur/204040249-3?$n_960w$&wid=952&fit=constrain" alt="Lights" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg">
+      
+    </div>
+</div>
+
+
+
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      //var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      //imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    myFunction(document.getElementById("firstImage"));
+    </script>
+
 </main>
 
 <footer>
