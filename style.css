@@ -173,28 +173,22 @@ nav>input {
 
 /* products featured items */
 
-#producthome>img {
-  
-  margin: 30px;
+.info {
+  padding: 7px;
+  background-color: #d8c9ba;
+  color: #5a453d;
+  width:100%;
+}
+
+.productImage {
   margin-bottom: 0px !important;
   border: 3px solid #d8c9ba;
   width: 250px;
   height: 275px;
 }
 
-#producthome {
-  margin: 0px;
-}
-
-#info, #price {
-  margin-left: 30px;
-  padding: 7px;
-  background-color: #d8c9ba;
-  color: #5a453d;
-}
-
-#info:hover, #price:hover {
-  color: white;
+.product{
+  padding:5px;
 }
 
 .container{ 
