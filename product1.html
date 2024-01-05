@@ -14,9 +14,7 @@
   <a href="index.html"> Home </a>
   <a href="Security.html"> Security</a>
   <a href="about_us.html">About us</a>
-  <a href="account.html"> Account</a>
   <a href="reviews.html"> Reviews </a>
-  <input type="text" placeholder="Search..">
 </nav>
 
 <main>
@@ -38,24 +36,23 @@
     <div class="container">
       <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
       <img id="expandedImg">
-      
+    </div>
+    <div id="info">
+      <h1>Product</h1>
     </div>
 </div>
-
-
-
 
   <script>
     function myFunction(imgs) {
       var expandImg = document.getElementById("expandedImg");
-      //var imgText = document.getElementById("imgtext");
       expandImg.src = imgs.src;
-      //imgText.innerHTML = imgs.alt;
       expandImg.parentElement.style.display = "block";
     }
     myFunction(document.getElementById("firstImage"));
     </script>
 
+    
+    
 </main>
 
 <footer>
