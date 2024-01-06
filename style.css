@@ -180,12 +180,17 @@ nav>input {
   width:100%;
 }
 
+.info:hover {
+  color: white;
+}
+
 .productImage {
   margin-bottom: 0px !important;
   border: 3px solid #d8c9ba;
   width: 250px;
   height: 275px;
 }
+
 
 .product{
   padding:5px;
@@ -300,8 +305,6 @@ text-align: center;
   font-size: 134%;
   color: #ffeae3;
 }
-
-
 
 footer {
   clear: both;
