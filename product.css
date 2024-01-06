@@ -133,7 +133,40 @@ footer>p {
   padding: 10px;
 }
 
-#uniqueId {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#store {
+  color: #5a453d; 
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#productname {
+  color:#5a453d;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#extrainfo {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #5a453d;
+  font-size: 14px;
+}
+
+#price {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#5a453da5;">
+}
+
+#button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255);
+  border: #BA3B46 5px solid;
+  color:#BA3B46;
+  border-radius: 10px;
+  padding:5px;
+  border-style: outset;
+}
+
+#button:hover {
+  background-color: #BA3B46;
+  color: white;
 }
