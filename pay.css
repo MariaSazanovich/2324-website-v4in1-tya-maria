@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d8c9ba;
+  }
+  
+  #paid {
+    margin: 100px;
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    border-style: outset;
+    border-width: 30px;
+    padding: 30px;
+  }
+
+  #paid>h1 {
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    color: ;
+  }
+
+
