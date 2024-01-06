@@ -153,7 +153,7 @@ footer>p {
 
 #price {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:#5a453da5;">
+  color:#5a453da5;
 }
 
 #button {
@@ -163,6 +163,7 @@ footer>p {
   color:#BA3B46;
   border-radius: 10px;
   padding:5px;
+  width: 270px;
   border-style: outset;
 }
 
