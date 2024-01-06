@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>product</title>
+    <link href="product.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<header>
+    <h1>Aprila&co</h1>
+</header>
+
+<nav>
+  <a href="index.html"> Home </a>
+  <a href="Security.html"> Security</a>
+  <a href="about_us.html">About us</a>
+  <a href="reviews.html"> Reviews </a>
+</nav>
+
+<main>
+  <div style="display:flex;flex-direction: row;">
+    <div class="row">
+      <div class="column">
+        <img id="firstImage" src="https://lsco.scene7.com/is/image/lsco/A75030009-detail1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=660&hei=726" alt="product1" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://lsco.scene7.com/is/image/lsco/A75030009-dynamic1-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=1.25,0.6,8&wid=2000&hei=1800" alt="Snow" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://lsco.scene7.com/is/image/lsco/A75030009-alt1-pdp-ld?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=1.25,0.6,8&wid=2000&hei=1800" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://lsco.scene7.com/is/image/lsco/A75030009-side-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=1.25,0.6,8&wid=2000&hei=1800" alt="Lights" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    <div class="container">
+      <img id="expandedImg">
+    </div>
+
+    <div id="info" style="margin:30px;">
+      <h2 id="store">
+        Levi's
+      </h2>
+      <h3 id="productname">
+        Levi ribcage jeans
+      </h3>
+      <br>
+      <h4 id="extrainfo">
+        color: blue <br>
+        sizes: 34 / 36 / 38 / 40 / 42
+      </h4>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 id="price">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€129,95
+      </h2>
+      <br>
+      <br>
+      <a href="pay.html">
+      <h1 id="button" style="
+      ">
+        &nbsp;&nbsp;&nbsp;PURCHASE
+      </h1>
+      </a>
+      <br>
+      <br>
+      <br>
+      <h5 style="
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color:#5a453d;">
+      <ul>
+        <li>
+          Free delivery
+        </li>
+        <br>
+        <li>
+          Free to return
+        </li>
+      </ul>
+      </h5>
+    </div>
+   
+
+</div>
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+    myFunction(document.getElementById("firstImage"));
+    </script> 
+
+</main>
+
+
+<footer>
+    <p> © 2023 | Gemaakt door Maria, Tya en Yara </p>
+  </footer>
+</body>
+
+</html>
