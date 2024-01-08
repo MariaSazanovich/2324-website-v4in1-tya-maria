@@ -134,9 +134,13 @@ nav>input {
   background: rgba(216, 201, 186, 0.7);
 }
 
+.image>p>a:hover {
+  color: #7A634E;
+}
 
-.image p {
+.image p a {
   position: relative;
+  padding-left: 200px;
   z-index: 1;
   flex: 1;
   color: #fff;
