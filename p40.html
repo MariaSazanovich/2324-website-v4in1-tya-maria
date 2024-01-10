@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>product</title>
+    <link href="product.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<header>
+    <h1>Aprila&co</h1>
+</header>
+
+<nav>
+  <a href="index.html"> Home </a>
+  <a href="Security.html"> Security</a>
+  <a href="about_us.html">About us</a>
+  <a href="reviews.html"> Reviews </a>
+</nav>
+
+<main>
+  <div style="display:flex;flex-direction: row;">
+    <div class="row">
+      <div class="column">
+        <img id="firstImage" src="https://static.e-stradivarius.net/5/photos4/2023/I/0/1/p/5814/469/456/5814469456_1_1_1.jpg?t=1700147643732&impolicy=stradivarius-itxhigt&imwidth=333&imformat=chrome&imdensity=1" alt="product1" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://static.e-stradivarius.net/5/photos4/2023/I/0/1/p/5814/469/456/5814469456_2_1_1.jpg?t=1700147635827&impolicy=stradivarius-itxmediumhigh&imwidth=333&imformat=chrome&imdensity=1" alt="Snow" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://static.e-stradivarius.net/5/photos4/2023/I/0/1/p/5814/469/456/5814469456_2_3_1.jpg?t=1700147628803&impolicy=stradivarius-itxhigt&imwidth=333&imformat=chrome&imdensity=1" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://static.e-stradivarius.net/5/photos4/2023/I/0/1/p/5814/469/456/5814469456_2_4_1.jpg?t=1700148422256&impolicy=stradivarius-itxhigt&imwidth=333&imformat=chrome&imdensity=1" alt="Lights" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    <div class="container">
+      <img id="expandedImg">
+    </div>
+
+    <div id="info" style="margin:30px;">
+      <h2 id="store">
+        Stradivarius
+      </h2>
+      <h3 id="productname">
+        Oversized Soft Jacket
+      </h3>
+      <br>
+      <h4 id="extrainfo">
+        Color: Beige <br>
+        Sizes: XS / S / M / L / XL
+      </h4>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 id="price">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€55,99
+      </h2>
+      <br>
+      <br>
+      <a href="pay.html">
+      <h1 id="button" style="
+      ">
+        &nbsp;&nbsp;&nbsp;PURCHASE
+      </h1>
+      </a>
+      <br>
+      <br>
+      <br>
+      <h5 style="
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color:#5a453d;">
+      <ul>
+        <li>
+          Free delivery
+        </li>
+        <br>
+        <li>
+          Free to return
+        </li>
+      </ul>
+      </h5>
+    </div>
+   
+
+</div>
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+    myFunction(document.getElementById("firstImage"));
+    </script> 
+
+</main>
+
+
+<footer>
+    <p> © 2023 | Gemaakt door Maria, Tya en Yara </p>
+  </footer>
+</body>
+
+</html>
