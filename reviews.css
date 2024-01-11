@@ -16,7 +16,11 @@ header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   size: 22px;
   padding-left: 10px;
+<<<<<<< HEAD
   color: #5a453d;
+=======
+  color:#5a453d;
+>>>>>>> a69340f (gggfgfg)
   font-style: italic;
   display: inline-block;
   line-height: 50px;
