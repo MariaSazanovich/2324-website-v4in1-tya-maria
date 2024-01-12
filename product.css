@@ -110,6 +110,7 @@ footer>p {
 
 .column img {
   opacity: 0.8;
+  object-fit: cover;
 }
 
 .column img:hover {
@@ -121,6 +122,11 @@ footer>p {
   content: "";
   display: table;
   clear: both;
+}
+
+#info>h5 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#5a453d;
 }
 
 .container {
