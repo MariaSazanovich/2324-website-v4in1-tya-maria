@@ -180,6 +180,7 @@ nav>input {
 
 .info:hover {
   color: #d8c9ba;
+  height: 100%;
 }
 
 .productImage {
@@ -187,14 +188,21 @@ nav>input {
   width: 400px;
   object-fit: cover;
   height: 480px;
+  border-radius: 25px;
+
 }
+
+.product {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
 
 .container{ 
   position: relative;
   text-align: center;
   line-height: -10px;
 }
-
 
 .left {
   font-size: 25pt;

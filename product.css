@@ -111,6 +111,7 @@ footer>p {
 .column img {
   opacity: 0.8;
   object-fit: cover;
+  width: 100%;
 }
 
 .column img:hover {
@@ -124,9 +125,15 @@ footer>p {
   clear: both;
 }
 
+.row3 {
+  display:flex;
+  flex-direction: row;
+}
+
 #info>h5 {
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#5a453d;
+  
 }
 
 .container {
@@ -171,6 +178,7 @@ footer>p {
   padding:5px;
   width: 270px;
   border-style: outset;
+  text-align: center;
 }
 
 #button:hover {
