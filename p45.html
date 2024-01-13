@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>product</title>
+    <link href="product.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<header>
+    <h1>Aprila&co</h1>
+</header>
+
+<nav>
+  <a href="index.html"> Home </a>
+  <a href="Security.html"> Security</a>
+  <a href="about_us.html">About us</a>
+  <a href="reviews.html"> Reviews </a>
+</nav>
+
+<main>
+  <div style="display:flex;flex-direction: row;">
+    <div class="row">
+      <div class="column">
+        <img id="firstImage" src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw1f37123e/images/hi-res/SKU/SKU_3236/584187_swatch.jpg" alt="product1" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw2339c465/images/hi-res/alternates/PID_alternate1/PID_alternate1_2221/P10026082_1.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw337ad7a4/images/hi-res/alternates/PID_alternate2/PID_alternate2_1931/P10026082_2.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw7781c307/images/hi-res/alternates/PID_alternate3/PID_alternate3_1663/P10026082_3.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    <div class="container">
+      <img id="expandedImg">
+    </div>
+
+    <div id="info" style="margin:30px;">
+      <h2 id="store">
+        Sol De Janeiro
+      </h2>
+      <h3 id="productname">
+        Brazilian Crush Cheirosa 68
+      </h3>
+      <br>
+      <h4 id="extrainfo">
+        <br>
+        Size: 90 ml / 240 ml
+      </h4>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 id="price">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€25,00
+      </h2>
+      <br>
+      <br>
+      <a href="pay.html">
+      <h1 id="button" style="
+      ">
+        &nbsp;&nbsp;&nbsp;PURCHASE
+      </h1>
+      </a>
+      <br>
+      <br>
+      <br>
+      <h5 style="
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color:#5a453d;">
+      <ul>
+        <li>
+          Free delivery
+        </li>
+        <br>
+        <li>
+          Free to return
+        </li>
+      </ul>
+      </h5>
+    </div>
+   
+
+</div>
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+    myFunction(document.getElementById("firstImage"));
+    </script> 
+
+</main>
+
+
+<footer>
+    <p> © 2023 | Gemaakt door Maria, Tya en Yara </p>
+  </footer>
+</body>
+
+</html>

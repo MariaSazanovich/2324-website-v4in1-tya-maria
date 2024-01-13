@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>product</title>
+    <link href="product.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<header>
+    <h1>Aprila&co</h1>
+</header>
+
+<nav>
+  <a href="index.html"> Home </a>
+  <a href="Security.html"> Security</a>
+  <a href="about_us.html">About us</a>
+  <a href="reviews.html"> Reviews </a>
+</nav>
+
+<main>
+  <div style="display:flex;flex-direction: row;">
+    <div class="row">
+      <div class="column">
+        <img id="firstImage" src="https://www.sephora.fr/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwca98ac2d/images/hi-res/SKU/SKU_1171/503487_swatch.jpg?sw=585&sh=585&sm=fit" alt="product1" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw2b9e3f88/images/hi-res/alternates/PID_alternate1/PID_alternate1_584/P3966089_1.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw93d1249f/images/hi-res/alternates/PID_alternate2/PID_alternate2_488/P3966089_2.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw4d3d3c4a/images/hi-res/alternates/PID_alternate4/PID_alternate4_360/P3966089_4.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    <div class="container">
+      <img id="expandedImg">
+    </div>
+
+    <div id="info" style="margin:30px;">
+      <h2 id="store">
+        Dior Backstage
+      </h2>
+      <h3 id="productname">
+        Dior Addict Lip Glow Oil
+      </h3>
+      <br>
+      <h4 id="extrainfo">
+        Color: 001 Pink<br>
+        Size: 6 ml
+      </h4>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 id="price">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€49,90
+      </h2>
+      <br>
+      <br>
+      <a href="pay.html">
+      <h1 id="button" style="
+      ">
+        &nbsp;&nbsp;&nbsp;PURCHASE
+      </h1>
+      </a>
+      <br>
+      <br>
+      <br>
+      <h5 style="
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color:#5a453d;">
+      <ul>
+        <li>
+          Free delivery
+        </li>
+        <br>
+        <li>
+          Free to return
+        </li>
+      </ul>
+      </h5>
+    </div>
+   
+
+</div>
+
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+    myFunction(document.getElementById("firstImage"));
+    </script> 
+
+</main>
+
+
+<footer>
+    <p> © 2023 | Gemaakt door Maria, Tya en Yara </p>
+  </footer>
+</body>
+
+</html>
