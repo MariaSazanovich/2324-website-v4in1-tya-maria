@@ -133,20 +133,21 @@ main>p {
 
   .info {
     padding: 7px;
-    background-color: #d8c9ba;
+    background-color: white;
     color: #5a453d;
     width:100%;
   }
   
   .info:hover {
-    color: white;
+    color: #d8c9ba;
   }
   
   .productImage {
     margin-bottom: 0px !important;
-    border: 3px solid #d8c9ba;
-    width: 250px;
-    height: 275px;
+    width: 400px;
+    object-fit: cover;
+    height: 480px;
+    border-radius: 25px;  
   }
   
   
