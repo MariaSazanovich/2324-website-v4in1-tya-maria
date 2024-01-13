@@ -204,9 +204,14 @@ nav>input {
 
 .product {
   margin-bottom: 30px;
+  padding: 5px;
   margin-top: 20px;
+  transition: transform .2s;
 }
 
+.product:hover {
+  transform: scale(1.08);
+}
 
 .container {
   position: relative;

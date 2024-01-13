@@ -151,8 +151,16 @@ main>p {
   }
   
   
-  .product{
-    padding:5px;
+
+  .product {
+    margin-bottom: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    transition: transform .2s;
+  }
+  
+  .product:hover {
+    transform: scale(1.08);
   }
 
 footer {
