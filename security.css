@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 table {
   border-collapse: collapse;
-  border: 1px solid black;
+  border: 2px solid black;
+
 }
 
 td {
@@ -51,7 +56,7 @@ nav {
 }
 
 .h1 {
-  color: #052b08;
+  color: #28662d;
   padding: 20px;
   text-align: center;
 }
@@ -64,7 +69,8 @@ nav {
   color: black;
 }
 
-ul, ol{
+ul,
+ol {
   padding-left: 30px;
 }
 
@@ -151,6 +157,14 @@ main {
   background-color: white;
 }
 
+#malware {
+  background-color: #198345;
+}
+
+.green {
+  background-color: #a4d2b7;
+}
+
 footer {
   clear: both;
   background-color: #07511c;
@@ -165,6 +179,9 @@ footer>p {
   line-height: 60px;
 }
 
-.idTable table,.idTable td,.idTable tbody,.idTable tr{
-  border:1px solid black;
+.idTable table,
+.idTable td,
+.idTable tbody,
+.idTable tr {
+  border: 1px solid black;
 }

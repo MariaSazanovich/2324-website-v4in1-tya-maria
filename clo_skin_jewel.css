@@ -180,6 +180,16 @@ main>p {
     transform: scale(1.08);
   }
 
+  #text3 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: #5a453d;
+    padding-top: 5px;
+  }
+
 footer {
     clear: both;
     background-color: #d8c9ba;
