@@ -65,6 +65,20 @@ nav {
   align-items: center;
 }
 
+  
+
+  nav {
+    background-color:  #d8c9ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav>a { 
+  color:#f9eeee;
+  font-size: 18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
 
   font-weight: bolder;
   display: inline-block;
