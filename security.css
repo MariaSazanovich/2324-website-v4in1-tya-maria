@@ -65,64 +65,7 @@ nav {
   align-items: center;
 }
 
-<<<<<<< HEAD
-.column {
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  padding-left: 20px;
-}
 
-.h1 {
-  color: #28662d;
-  padding: 20px;
-  text-align: center;
-}
-
-.column>p {
-  color: rgb(96, 96, 96);
-}
-
-.text {
-  color: black;
-}
-
-ul,
-ol {
-  padding-left: 30px;
-}
-
-h2 {
-  color: #07511c;
-  padding-top: 20px;
-}
-
-h3 {
-  color: #198345;
-  padding-top: 10px;
-}
-
-nav>a {
-  color: #ffffff;
-  font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
-=======
-  
-
-  nav {
-    background-color:  #d8c9ba;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  nav>a { 
-  color:#f9eeee;
-  font-size: 18px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bolder;
->>>>>>> a69340f (gggfgfg)
   font-weight: bolder;
   display: inline-block;
   width: 200px;
