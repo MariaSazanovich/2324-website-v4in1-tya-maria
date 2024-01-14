@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>product</title>
-    <link href="product.css" rel="stylesheet" type="text/css" />
-  </head>
+  <title>product</title>
+  <link href="product.css" rel="stylesheet" type="text/css" />
+</head>
 
 <header>
-    <h1>Aprila&co</h1>
+  <h1>Aprila&co</h1>
 </header>
 
 <nav>
@@ -18,30 +18,43 @@
 </nav>
 
 <main>
-  <div style="display:flex;flex-direction: row;">
+  <div class="row3">
     <div class="row">
       <div class="column">
-        <img id="firstImage" src="https://static.bershka.net/4/photos2/2024/V/0/1/p/0135/019/507/bccd224b1975d0eda0ece0192d72fa34-0135019507_2_24_0.jpg?imwidth=850&impolicy=bershka-itxmediumhigh&imformat=generic" alt="product1" style="width:100%" onclick="myFunction(this);">
+        <img id="firstImage"
+          src="https://www.sephora.fr/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw53403749/images/hi-res/SKU/SKU_4781/707318_swatch.jpg?sw=585&sh=585&sm=fit"
+          alt="1" onclick="myFunction(this);">
       </div>
       <div class="column">
-        <img src="https://static.bershka.net/4/photos2/2024/V/0/1/p/0135/019/507/e2ca68be84588c43d3a9081b1c9f3fd9-0135019507_1_1_0.jpg?imwidth=850&impolicy=bershka-itxmediumhigh&imformat=generic" alt="Snow" style="width:100%" onclick="myFunction(this);">
+        <img
+          src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw320acb72/images/hi-res/alternates/PID_alternate1/PID_alternate1_2739/P10011097_1.jpeg"
+          alt="2" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img
+          src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw8eea3602/images/hi-res/alternates/PID_alternate2/PID_alternate2_2398/P10011097_2.jpeg"
+          alt="3" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img
+          src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw427c4a01/images/hi-res/alternates/PID_alternate2/PID_alternate2_2486/P10011097_2.jpg"
+          alt="4" onclick="myFunction(this);">
       </div>
     </div>
     <div class="container">
       <img id="expandedImg">
     </div>
 
-    <div id="info" style="margin:30px;">
+    <div id="info">
       <h2 id="store">
-        Bershka
+        La Mer
       </h2>
       <h3 id="productname">
-        Flare pants
+        Face serum
       </h3>
       <br>
       <h4 id="extrainfo">
-        Color: Kaki / White / Black<br>
-        sizes: XS / S / M / L / XL
+        Size: 300 ml
       </h4>
       <br>
       <br>
@@ -49,36 +62,33 @@
       <br>
       <br>
       <h2 id="price">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€109,99
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€650,00
       </h2>
       <br>
       <br>
       <a href="pay.html">
-      <h1 id="button" style="
-      ">
-        &nbsp;&nbsp;&nbsp;PURCHASE
-      </h1>
+        <h1 id="button">
+          &nbsp;&nbsp;&nbsp;PURCHASE
+        </h1>
       </a>
       <br>
       <br>
       <br>
-      <h5 style="
-      font-family:Georgia, 'Times New Roman', Times, serif;
-      color:#5a453d;">
-      <ul>
-        <li>
-          Free delivery
-        </li>
-        <br>
-        <li>
-          Free to return
-        </li>
-      </ul>
+      <h5>
+        <ul>
+          <li>
+            Free delivery
+          </li>
+          <br>
+          <li>
+            Free to return
+          </li>
+        </ul>
       </h5>
     </div>
-   
 
-</div>
+
+  </div>
 
   <script>
     function myFunction(imgs) {
@@ -87,14 +97,14 @@
       expandImg.parentElement.style.display = "block";
     }
     myFunction(document.getElementById("firstImage"));
-    </script> 
+  </script>
 
 </main>
 
 
 <footer>
-    <p> © 2023 | Gemaakt door Maria, Tya en Yara </p>
-  </footer>
+  <p> © 2023 | Gemaakt door Maria, Tya en Yara </p>
+</footer>
 </body>
 
 </html>
