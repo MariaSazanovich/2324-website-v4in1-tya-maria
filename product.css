@@ -127,18 +127,19 @@ footer>p {
 }
 
 .row3 {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
 #info>h5 {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#5a453d;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #5a453d;
 }
 
 #info {
   margin: 30px;
 }
+
 .container {
   position: relative;
   display: none;
@@ -151,35 +152,35 @@ footer>p {
 }
 
 #store {
-  color: #5a453d; 
+  color: #5a453d;
   font-size: 30px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #productname {
-  color:#5a453d;
+  color: #5a453d;
   font-size: 20px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #extrainfo {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #5a453d;
   font-size: 14px;
 }
 
 #price {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:#5a453da5;
+  color: #5a453da5;
 }
 
 #button {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: rgb(255, 255, 255);
   border: #BA3B46 5px solid;
-  color:#BA3B46;
+  color: #BA3B46;
   border-radius: 10px;
-  padding:5px;
+  padding: 5px;
   width: 270px;
   border-style: outset;
   text-align: center;
