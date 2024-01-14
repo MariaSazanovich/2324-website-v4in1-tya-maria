@@ -104,8 +104,9 @@ footer>p {
 
 .column {
   float: none;
-  width: 100px;
+  width: 120px;
   padding: 10px;
+  margin-left: 50px;
 }
 
 .column img {
@@ -133,17 +134,20 @@ footer>p {
 #info>h5 {
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#5a453d;
-  
 }
 
+#info {
+  margin: 30px;
+}
 .container {
   position: relative;
   display: none;
 }
 
 #expandedImg {
-  height: 500px;
+  height: 600px;
   padding: 10px;
+  padding-right: 20px;
 }
 
 #store {
